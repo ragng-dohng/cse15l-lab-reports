@@ -7,7 +7,7 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 2. System (arbitrarily) requires you to "change" password: [Tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 3. Note your cs15lwi23zzz
 ### 2. Installing VScode [here](https://code.visualstudio.com/)
-[VScode](https://ucsd-cse15l-w23.github.io/images/vscode.png)
+![VScode](https://ucsd-cse15l-w23.github.io/images/vscode.png)
 ### 3. Remotely Connecting
 1. MAC automatically have git. If Windows, install git [here](https://gitforwindows.org/)
 2. [Set the default terminal](https://stackoverflow.com/a/50527994) in VScode to the newly-installed git bash
