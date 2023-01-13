@@ -5,14 +5,14 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 ### Step 1. Course-Specific Account on ieng6
 1a. Go to this [web](https://sdacs.ucsd.edu/~icc/index.php)
 1b. System (arbitrarily) requires you to [change password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). The current password refers to your school password.
-1c. 3. Note your ==cs15lwi23zzz==
+1c. Note your <mark>cs15lwi23zzz</mark>
 ### Step 2. Install VScode [here](https://code.visualstudio.com/)
 (the VScode environment should look like the below)
 ![VScode](https://ucsd-cse15l-w23.github.io/images/vscode.png)
 ### Step 3. Remotely Connecting
 3a. MAC automatically have git. If Windows, install git [here](https://gitforwindows.org/)
 3b. [Set the default terminal](https://stackoverflow.com/a/50527994) in VScode to the installed git bash
-3c. In your VScode terminal, type $ ssh cs15lwi23zz@ieng6.ucsd.edu and ENTER
+3c. In your VScode terminal, type <mark>$ ssh cs15lwi23zz@ieng6.ucsd.edu</mark> and ENTER
 (don't include the $ which is used to denote terminal commands)
-3d. Type "yes" and ENTER when asked if you want to continue connecting
+3d. Type <mark>yes</mark> and ENTER when asked if you want to continue connecting
 ### Step 4. Try Some Commands
