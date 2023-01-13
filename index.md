@@ -4,5 +4,5 @@ Welcome! Here's a cute pup picture:
 
 These are the reports for CSE 15L:
 
-* [Week 1 Lab Report](https://ragng-dohng.github.io/cse15l-lab-reports/week-1-lab-report.md)
+* [Week 1 Lab Report](https://ragng-dohng.github.io/cse15l-lab-reports/week-1-lab-report.html)
 * Week 2 Lab Report
