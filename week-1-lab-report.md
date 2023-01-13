@@ -1,6 +1,6 @@
 # Week 1 – Markdown, URLs, Paths, and the Filesystem
 
-In enrolling in CSE 15L, the UCSD server automatically creates a directory for each student. You need to get the specifier associated with that directory: == cs15lwi23zzz@ieng6.ucsd.edu == where zzz will be unique to you. This will allow remote connection to a computer in the CSE basement
+In enrolling in CSE 15L, the UCSD server automatically creates a directory for each student. You need to get the specifier associated with that directory: <mark>cs15lwi23zzz@ieng6.ucsd.edu</mark> where zzz will be unique to you. This will allow remote connection to a computer in the CSE basement
 
 ### Step 1. Course-Specific Account on ieng6
 - 1. Go to this [web](https://sdacs.ucsd.edu/~icc/index.php)
