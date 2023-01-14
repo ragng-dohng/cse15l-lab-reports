@@ -10,13 +10,14 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 (the VScode environment should look like the below)
 ![VScode](https://ucsd-cse15l-w23.github.io/images/vscode.png)
 ### Step 3. Remotely Connecting
+*note, after each input in the terminal, remember to press the ENTER key
 1. MAC automatically have git. If Windows, install git [here](https://gitforwindows.org/)
 2. [Set the default terminal](https://stackoverflow.com/a/50527994) in VScode to the installed git bash
-3. In your VScode terminal, type <mark>$ ssh cs15lwi23zz@ieng6.ucsd.edu</mark> and ENTER
+3. In your VScode terminal, type <mark>$ ssh cs15lwi23zz@ieng6.ucsd.edu</mark>
 (don't include the $ which is used to denote terminal commands)
 4. Type in your password to login. Note: when you're typing the password, it will not be displayed to screen.
 ![login](login.png)
-5. Type <mark>yes</mark> and ENTER when asked if you want to continue connecting. So far, the below is what you should have:
+5. Type <mark>yes</mark> when asked if you want to continue connecting. So far, the below is what you should have:
 
               ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
               The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
