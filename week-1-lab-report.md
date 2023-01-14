@@ -16,7 +16,24 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 (don't include the $ which is used to denote terminal commands)
 4. Type in your password to login. Note: when you're typing the password, it will not be displayed to screen.
 ![login](login.png)
-6. 
-7. 
-8. Type <mark>yes</mark> and ENTER when asked if you want to continue connecting
+5. Type <mark>yes</mark> and ENTER when asked if you want to continue connecting. So far, the below is what you should have:
+              ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+              The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+              RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+              Are you sure you want to continue connecting (yes/no/[fingerprint])? <mark>yes</mark>
+              Password: 
+7. The remote connection is a success if you see something like this:
+              Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
+              quota: No filesystem specified.
+              Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
+
+              You are using 0% CPU on this system
+
+              Cluster Status 
+              Hostname     Time    #Users  Load  Averages  
+              ieng6-201   23:25:01   0  0.08,  0.17,  0.11
+              ieng6-202   23:25:01   1  0.09,  0.15,  0.11
+              ieng6-203   23:25:01   1  0.08,  0.15,  0.11
+
+              Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ### Step 4. Try Some Commands
