@@ -14,8 +14,8 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 2. [Set the default terminal](https://stackoverflow.com/a/50527994) in VScode to the installed git bash
 3. In your VScode terminal, type <mark>$ ssh cs15lwi23zz@ieng6.ucsd.edu</mark> and ENTER
 (don't include the $ which is used to denote terminal commands)
-4. The terminal will ask for your password next. Note: when you're typing the password, it will not be displayed to screen.
-![login]()
+4. Type in your password to login. Note: when you're typing the password, it will not be displayed to screen.
+![login](login.png)
 6. 
 7. 
 8. Type <mark>yes</mark> and ENTER when asked if you want to continue connecting
