@@ -44,13 +44,13 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
               Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
               
 ### Step 4. Try Some Commands (listed below)
-- cd ~
-- cd
-- ls -lat
-- ls -a
-- ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
-- cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-- cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  cd ~
+  cd
+  ls -lat
+  ls -a
+  ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+  cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+  cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
 Try figuring out what the above commands do. For example:
   
