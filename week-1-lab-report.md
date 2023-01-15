@@ -1,13 +1,15 @@
-# Week 1 – Markdown, URLs, Paths, and the Filesystem
+# Lab Report 1
 
-Goal: To establish a remote connection to a computer in the CSE basement. Each student has an account `cs15lwi23zzz@ieng6.ucsd.edu` where the zzz is the unique specifier. 
+Goal: To establish a remote connection to a computer in the CSE basement. 
 
 ### Step 1. Course-Specific Account on ieng6
+Each student has an account `cs15lwi23zzz@ieng6.ucsd.edu` where the zzz is the unique specifier in order to make the remote connection. Let's find your account now.
 1. Go to this [web](https://sdacs.ucsd.edu/~icc/index.php)
 2. System (arbitrarily) requires you to [change password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). The current password refers to your school password.
 3. Note your zzz in your `cs15lwi23zzz`
 
 ### Step 2. Install VScode [here](https://code.visualstudio.com/)
+In order to keep everyone's work uniform, we're going to use VScode.
 (the VScode environment should look like the below)
 ![VScode](https://ucsd-cse15l-w23.github.io/images/vscode.png)
 
