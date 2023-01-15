@@ -16,14 +16,15 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 3. In your VScode terminal, type <mark>$ ssh cs15lwi23zz@ieng6.ucsd.edu</mark>
 (don't include the $ which is used to denote terminal commands)
 4. Type in your password to login. Note: when you're typing the password, it will not be displayed to screen.
-![login](login.png)
+
+             ![login](login.png)
 5. Type <mark>yes</mark> when asked if you want to continue connecting. So far, the below is what you should have:
 
               ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
               The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
               RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
               Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-              Password: 
+              Password: WhateverPasswordYouChangedToinStep1
               
 7. The remote connection is a success if you see something like this:
 
@@ -41,4 +42,15 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 
               Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
               
-### Step 4. Try Some Commands
+### Step 4. Try Some Commands (listed below)
+- cd ~
+- cd
+- ls -lat
+- ls -a
+- ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+- cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+- cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+
+Try figuring out what the above commands do. For example:
+            ![command](command.png)
+Initially, the current working directory only has one file called “perl5”. After inputting the command cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/, the command copied the file from the specified pathway to my home directory as denoted by the “~”. If the command didn’t have the “~”, then the copy of the file would have been made in the current working directory. 
