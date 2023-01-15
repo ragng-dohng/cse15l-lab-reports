@@ -58,6 +58,6 @@ Try figuring out what the above commands do. For example:
   
 ![command](command.png)
   
-Initially, the current working directory only has one file called “perl5”. After inputting the command <mark>cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/</mark>, the command copied the file from the specified pathway to my home directory as denoted by the tilda. If the command didn’t have the tilda, then the copy of the file would have been made in the current working directory. 
+Initially, the current working directory only has one file called “perl5”. After inputting the command `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`, the command copied the file from the specified pathway to my home directory as denoted by the tilda. If the command didn’t have the tilda, then the copy of the file would have been made in the current working directory. 
 
 ### Done! Type `exit` to stop the remote connection.
