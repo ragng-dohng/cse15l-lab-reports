@@ -1,6 +1,6 @@
 # Week 1 – Markdown, URLs, Paths, and the Filesystem
 
-In enrolling in CSE 15L, the UCSD server automatically creates a directory for each student. You need to get the specifier associated with that directory: `cs15lwi23zzz@ieng6.ucsd.edu` where zzz will be unique to you. This will allow remote connection to a computer in the CSE basement
+Goal: To establish a remote connection to a computer in the CSE basement. Each student has an account `cs15lwi23zzz@ieng6.ucsd.edu` where the zzz is the unique specifier. 
 
 ### Step 1. Course-Specific Account on ieng6
 1. Go to this [web](https://sdacs.ucsd.edu/~icc/index.php)
@@ -59,3 +59,5 @@ Try figuring out what the above commands do. For example:
 ![command](command.png)
   
 Initially, the current working directory only has one file called “perl5”. After inputting the command <mark>cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/</mark>, the command copied the file from the specified pathway to my home directory as denoted by the tilda. If the command didn’t have the tilda, then the copy of the file would have been made in the current working directory. 
+
+## Done! Type `exit` to stop the remote connection.
