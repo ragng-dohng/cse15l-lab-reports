@@ -18,6 +18,7 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 4. Type in your password to login. Note: when you're typing the password, it will not be displayed to screen.
 
 ![login](login.png)
+
 5. Type <mark>yes</mark> when asked if you want to continue connecting. So far, the below is what you should have:
 
               ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
