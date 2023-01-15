@@ -17,7 +17,7 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 (don't include the $ which is used to denote terminal commands)
 4. Type in your password to login. Note: when you're typing the password, it will not be displayed to screen.
 
-             ![login](login.png)
+![login](login.png)
 5. Type <mark>yes</mark> when asked if you want to continue connecting. So far, the below is what you should have:
 
               ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
@@ -52,5 +52,7 @@ In enrolling in CSE 15L, the UCSD server automatically creates a directory for e
 - cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
 Try figuring out what the above commands do. For example:
-            ![command](command.png)
-Initially, the current working directory only has one file called “perl5”. After inputting the command cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/, the command copied the file from the specified pathway to my home directory as denoted by the “~”. If the command didn’t have the “~”, then the copy of the file would have been made in the current working directory. 
+  
+![command](command.png)
+  
+Initially, the current working directory only has one file called “perl5”. After inputting the command cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/, the command copied the file from the specified pathway to my home directory as denoted by the “/~”. If the command didn’t have the “/~”, then the copy of the file would have been made in the current working directory. 
