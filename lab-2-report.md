@@ -50,4 +50,8 @@ class StringServer {
     }
 }
 ```
-
+- examples:
+![java-commands](java-commands.png)
+![homepage](homepage.png)
+![screenshot-1](screenshot-1.png)
+![screenshot-2](screenshot-2.png)
