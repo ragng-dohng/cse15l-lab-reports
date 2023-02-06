@@ -66,6 +66,6 @@ Goal:
     - Similarly, the next string request `http://localhost:4000/add-message?s=is%20Linhsan` has `handlerequest()` with `new URI("http://localhost:4000/add-message?s=is%20Linhsan")` as input. 
     - The ArrayList `str_list` now has two elements: `["my name","is Linhsan"]. All the elements of `str_list` is concatenated, each separated by a newline `\n`, in the variable `result` to be returned as a single output.
 
-<<>> Note: Screenshot below shows java commands to launch the server locally. Use Ctrl-C in the terminal to stop the server from running.
+![java-commands](java-commands.png)
 
-    ![java-commands](java-commands.png)
+<<>> Note: Screenshot below shows java commands to launch the server locally. Use Ctrl-C in the terminal to stop the server from running.
