@@ -19,7 +19,7 @@ Goal:
             if (url.getPath().equals("/")) {
                 return String.format("Linhsan's String Server");
             } 
-            else { // if (url.getPath().contains("?"))
+            else {
                 System.out.println("Path: " + url.getPath());
                 if (url.getPath().contains("/add-message")) {
                     String[] parameters = url.getQuery().split("=");
@@ -58,6 +58,7 @@ Goal:
     
     ![screenshot-2](screenshot-2.png)
     
-*note: Screenshot below shows java commands to launch the server locally. Use Ctrl-C in the terminal to stop the server from running.
+Notice that, in the code, the outputs of the first and second screenshots resulted from method `handleRequest()` which takes in the 'URI url'. Then, it enters the `else` statement and concatenates the incoming string request to the, if any, previously concatenated string requests, each separated by a newline `\n` in the variable `result`.
+*note: Screenshot below shows java commands to launch the server locally. Use Ctrl-C in the terminal to stop the server from running.*
 
     ![java-commands](java-commands.png)
