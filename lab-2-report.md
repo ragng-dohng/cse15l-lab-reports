@@ -56,11 +56,15 @@ Goal:
     
     ![screenshot-1](screenshot-1.png)
     
+        - When the first string request `http://localhost:4000/add-message?s=My%20name` comes in, the 'handleRequest()' method is called taking in the url `new URI("http://localhost:4000/add-message?s=My%20name")`. 
+    - The ArrayList 'str_list', initially empty, now has has its first element as parameter[1], extracted via `url.getQuery().split("=")` and the nested-if condition. 
+    - Note that the `url.getQuery()` extracts the part that follows the `?` (the query component) of the url and then the `split("=")` method splits into substrings whatever is separated by the `=`. 
+    - In addition, because space characters are not allowed in urls, the path was auto-filled with the url-encoding for the space character `%20`, so that "My name" is interpreted as a single string. 
+
     ![screenshot-2](screenshot-2.png)
     
-    - When the first string request `http://localhost:4000/add-message?s=My%20name` comes in, the 'handleRequest()' method is called taking in the url `new URI("http://localhost:4000/add-message?s=My%20name")`. The ArrayList 'str_list', initially empty, now has has its first element as parameter[1], extracted via `url.getQuery().split("=")` and the nested-if condition. Note that the `url.getQuery()` extracts the part that follows the `?` (the query component) of the url and then the `split("=")` method splits into substrings whatever is separated by the `=`. Because space characters are not allowed in urls, the path was auto-filled with the url-encoding for the space character `%20`, so that "My name" is interpreted as a single string. 
-
-Notice that, in the code, the outputs of the first and second screenshots resulted from method `handleRequest()` which takes in the 'URI url'. Then, it enters the `else` statement and concatenates the incoming string request to the, if any, previously concatenated string requests, each separated by a newline `\n` in the variable `result`.
+    - Similarly, the next string request `http://localhost:4000/add-message?s=is%20Linhsan` has `handlerequest()` with `new URI("http://localhost:4000/add-message?s=is%20Linhsan")` as input. 
+    - The ArrayList `str_list` now has two elements: `["My name","is Linhsan"]. All the elements of `str_list` is concatenated, each separated by a newline `\n`, in the variable `result` to be returned as a single output.
 
 *note: Screenshot below shows java commands to launch the server locally. Use Ctrl-C in the terminal to stop the server from running.*
 
