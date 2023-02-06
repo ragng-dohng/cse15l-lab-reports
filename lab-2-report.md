@@ -2,9 +2,10 @@
 Goal: 
 
 ### Part 1.
-`StringServer` displays all, including previous, incoming string requests, each on a newline, since the start of the server of the form `/add-message?s=<string>`.
+`StringServer` displays all, including previous, incoming string requests, each on a newline, since the start of the server.
+- incoming string request form: `/add-message?s=<string>`
 - code for the server as follows:
-```
+```java
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
