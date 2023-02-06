@@ -83,12 +83,12 @@ public class ArrayExamples {
   }
 }
 ```
+(java command to run JUnit test)
+```
+$ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/jun13.2.jar" *.java
+$ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-1.3.jar" org.junit.runner.JUnitCore ArrayTests
+```
 - A failure-inducing input for the buggy program:
-    (java command to run JUnit test)
-    ```
-    $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/jun13.2.jar" *.java
-    $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-1.3.jar" org.junit.runner.JUnitCore ArrayTests
-    ```
     (JUnit test)
     ```java
     public class ArrayTests {
@@ -100,6 +100,7 @@ public class ArrayExamples {
       }
     }
     ```
+    (symptom)
 - The following input doesn’t induce a failure:
     ```java
     public class ArrayTests {
@@ -111,9 +112,7 @@ public class ArrayExamples {
         }
     }
     ```
-- The symptoms, as the output of running the tests:
-
-- Fixed bug
+- Code after fixing bug:
 
 Briefly describe why the fix addresses the issue.
 
