@@ -3,6 +3,10 @@ Goal:
 
 ### Part 1.
 `StringServer` displays all, including previous, incoming string requests, each on a newline, since the start of the server.
+- start server with following java commands to launch the server locally (ctrl-C to stop the server from running)
+
+    ![java-commands](java-commands.png)
+    
 - incoming string request form: `/add-message?s=<string>`
 - code for the server as follows:
     ```java
@@ -65,7 +69,3 @@ Goal:
     
     - Similarly, the next string request `http://localhost:4000/add-message?s=is%20Linhsan` has `handlerequest()` with `new URI("http://localhost:4000/add-message?s=is%20Linhsan")` as input. 
     - The ArrayList `str_list` now has two elements: `["my name","is Linhsan"]. All the elements of `str_list` is concatenated, each separated by a newline `\n`, in the variable `result` to be returned as a single output.
-
-Note: Screenshot below shows java commands to launch the server locally. Use Ctrl-C in the terminal to stop the server from running.
-
-    ![java-commands](java-commands.png)
