@@ -83,10 +83,10 @@ public class ArrayExamples {
   }
 }
 ```
-(java command to run JUnit test)
+(java command to run JUnit test for Windows)
 ```
-$ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/jun13.2.jar" *.java
-$ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-1.3.jar" org.junit.runner.JUnitCore ArrayTests
+$ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+$ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
 ```
 - A failure-inducing input for the buggy program:
     (JUnit test)
@@ -101,6 +101,7 @@ $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-1.3.jar" org.junit.runner.JUnitC
     }
     ```
     (symptom)
+    
 - The following input doesn’t induce a failure:
     ```java
     public class ArrayTests {
@@ -112,7 +113,23 @@ $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-1.3.jar" org.junit.runner.JUnitC
         }
     }
     ```
+    (no symptom)
+    ![image](https://user-images.githubusercontent.com/111631103/217133982-e2a1edbb-dfbc-4143-b378-93656f343e06.png)
+
 - Code after fixing bug:
+    ```java
+    public class ArrayExamples {
+
+      // Changes the input array to be in reversed order
+      static void reverseInPlace(int[] arr) {
+        for(int i = 0; i < (arr.length/2); i += 1) {
+          int temp = arr[i];
+          arr[i] = arr[arr.length-i-1];
+          arr[arr.length-i-1] = temp;
+        }
+      }
+    }
+    ```
 
 Briefly describe why the fix addresses the issue.
 
