@@ -100,7 +100,10 @@ $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.J
       }
     }
     ```
-    (symptom)
+    symptom
+    - expected: [4,3,2,1]
+    - actual: [4,3,3,4]
+    - JUnit output:
     ![image](https://user-images.githubusercontent.com/111631103/217134586-00ccd4e5-0855-45f6-95d4-eee0f9d124c8.png)
 
 - The following input doesn’t induce a failure:
@@ -116,7 +119,10 @@ $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.J
         }
     }
     ```
-    (no symptom)
+    symptom
+    - expected: [3]
+    - actual: [3]
+    - JUnit output:
     ![image](https://user-images.githubusercontent.com/111631103/217133982-e2a1edbb-dfbc-4143-b378-93656f343e06.png)
 
 - Code after fixing bug:
@@ -133,6 +139,6 @@ $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.J
       }
     }
     ```
-    - Note that 
+    - The original program with the bug didn't induce any failures when tested with an array with of one element as reversing an one element array always results in the same array. However, when the array has a length greater than one, we see that the test failed. The original program is re-assigning the values in the first half with its latter half while the latter half, similarly, is re-assigned values from the first half **but** this first half has already been overwritten with the values of the latter half. Essentially, the first half losts its initial values which it was supposed to pass onto the second half, e.g. [a,b,c,d] => [c,d,d,c]. We can fix this by storing the to-be swapped value beforehand and then swap the two corresponding elements at once (versus in sequential order), so the variable temp would hold the value `a` while "a's spot" is re-assigned the value `d`. Then, "d's spot" is assigned the value "a" which temp was holding, and this continues on until the 
 
 ### Part 3 Some Afterthoughts
