@@ -1,7 +1,6 @@
 # Lab Report 2 - Servers and Bugs
-Goal: 
 
-### Part 1
+### Part 1 WebServers
 `StringServer` displays all, including previous, incoming string requests, each on a newline, since the start of the server.
 - start server with following java commands to launch the server locally (ctrl-C to stop the server from running)
 
@@ -70,7 +69,7 @@ Goal:
     - Similarly, the next string request `http://localhost:4000/add-message?s=is%20Linhsan` has `handlerequest()` with `new URI("http://localhost:4000/add-message?s=is%20Linhsan")` as input. 
     - The ArrayList `str_list` now has two elements: ["my name","is Linhsan"]. All the elements of `str_list` is concatenated, each separated by a newline, in the variable `result` to be returned as a single output.
 
-### Part 2
+### Part 2 Unit Testing Buggy Programs
 Here's a buggy program:
 ```java
 public class ArrayExamples {
@@ -134,7 +133,6 @@ $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.J
       }
     }
     ```
+    - Note that 
 
-Briefly describe why the fix addresses the issue.
-
-### Part 3
+### Part 3 Some Afterthoughts
