@@ -89,6 +89,7 @@ $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
 ```
 - A failure-inducing input for the buggy program:
+    
     (JUnit test)
     ```java
     public class ArrayTests {
@@ -101,8 +102,11 @@ $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.J
     }
     ```
     (symptom)
-    
+    ![image](https://user-images.githubusercontent.com/111631103/217134586-00ccd4e5-0855-45f6-95d4-eee0f9d124c8.png)
+
 - The following input doesn’t induce a failure:
+
+    (JUnit Test)
     ```java
     public class ArrayTests {
         @Test 
