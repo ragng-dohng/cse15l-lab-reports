@@ -18,6 +18,19 @@ Here's grep with `-w`:
 
 ### 3. Search with Multiple Patterns
 - `$ grep -e "vista" -e "vitsa" -e "VISTA" find-results.txt`
+```bash
+grep "vista" $1 > grep-result1.txt
+grep "flower" $1 > grep-result2.txt
+grep "farm" $1 > grep-result3.txt
+wc grep-result1.txt
+wc grep-result2.txt
+wc grep-result3.txt
+
+grep -e "vista" -e "flower" -e "farm" $1 > grep-results.txt
+wc grep-results.txt
+```
+As we can see from the output (below), the individual count sum up to the total count
+![image](https://user-images.githubusercontent.com/111631103/221734097-0e581bb0-bd64-43ab-b15e-994dc5e0779d.png)
 
 ### 4. Search with Multiple Patterns from a File
 given `pattern.txt`, `$ grep -f pattern.txt find-results.txt`
