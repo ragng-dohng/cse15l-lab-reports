@@ -1,4 +1,4 @@
-# Lab Report 3 - Four Interesting Ways to use the `GREP` Command
+# Lab Report 3 - Four Interesting Ways to use the `grep` Command
 
 ### Way 1. Output File Names containing Pattern
 We might want the file names which has matches in order to manipulate the files themselves. Instead of the output as the lines which matches the pattern, using the -1 option with grep outputs the file names whose content has the matches, e.g. `$ grep -l "vista" written_2/travel_guides/berlitz1/*.txt`.
