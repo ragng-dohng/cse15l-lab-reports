@@ -1,11 +1,11 @@
 # Lab Report 3 - Four Interesting Ways to use the `GREP` Command
 
-### Way 1) Output File Names containing Pattern
+### Way 1. Output File Names containing Pattern
 We might want the file names which has matches in order to manipulate the files themselves. Instead of the output as the lines which matches the pattern, using the -1 option with grep outputs the file names whose content has the matches, e.g. `$ grep -l "vista" written_2/travel_guides/berlitz1/*.txt`.
 
 ![image](https://user-images.githubusercontent.com/111631103/221749504-0b350172-5d88-4e6b-bea2-0e436e05f007.png)
 
-### Way 2) Search for the Pattern as a _whole word_ 
+### Way 2. Search for the Pattern as a _whole word_ 
 By default, grep's pattern matching includes substrings. This could prove to be useless if we are trying to find matches, for example, "he" but the default will have the results include matches to "the", in instance. In using the -w option with grep, the pattern "he" is interpreted as a single word. Note the example as follow: `$ grep -w "vista" written_2/travel_guides/berlitz1/*.txt`
 
 Without `-w`, notice that grep output includes vista as a substring of _vistas_
@@ -14,7 +14,7 @@ Without `-w`, notice that grep output includes vista as a substring of _vistas_
 Here's grep with `-w`:
 ![image](https://user-images.githubusercontent.com/111631103/221750361-433aad24-4f41-445c-bc4a-a85535d602bf.png)
 
-### Way 3) Search with Multiple Patterns
+### Way 3. Search with Multiple Patterns
 Sometimes, you want to do searches for multiple patterns (or even variations on spelling of a word) and so we have the -e option, the expressions specifier. The comparison without -e and with -e is shown below in the bash script called via `$ bash count-txts.sh written_2/travel_guides/berlitz1/*.txt`.
 
 ```
@@ -49,7 +49,7 @@ wc grep-results.txt
 We see that the output is now as expected (below):
 ![image](https://user-images.githubusercontent.com/111631103/221747040-4e9534f7-df3a-4bcb-a9ce-5ff1e61a190a.png)
 
-### Way 4) Search with Multiple Patterns from a File
+### Way 4. Search with Multiple Patterns from a File
 Now, the patterns to be matched could be very long and using -e option to specify for every one isn't always ideal, so we can use grep to refer to a text file which has all the pattern to be matched, e.g. given `pattern.txt`, thus `$ grep -o -f pattern.txt written_2/travel_guides/berlitz1/*.txt | w`. Note, the `|` is what is called a pipeline in which we "pipe" the resulting output into the next command (in this case, `wc`).
 
 ```
@@ -59,12 +59,12 @@ flower
 farm
 ```
 
-We see that our output is as expected, i.e. the same as when we used the -e option in Way 3).
+We see that our output is as expected, i.e. the same as when we used the -e option in Way 3.
 ![image](https://user-images.githubusercontent.com/111631103/221749091-afd8d741-fd05-49c3-b52a-88be7f493909.png)
 
-### A Few Last Notes
+### A Few Last Notes...
 The alternative to using a pipeline, as we seen in class, is to output to a text file, e.g. `$ grep ".txt" find_results.txt > grep_results.txt`, and then the `wc` command is applied likeso: `$ wc grep_results.txt`. I find the pipeline method to be more quicker and we can even combine commands, e.g. `$ grep ".txt" find_results.txt | uniq | wc`. 
 
 *Note that `uniq` removes duplicate lines from the output of the grep command. This happens when there are multiple matches of the pattern in a single line.
 
-Finally, these various ways of using `grep` was sourced from [Geeks For Geeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
+Finally, these various ways of using `grep` was sourced from [Geeks For Geeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
