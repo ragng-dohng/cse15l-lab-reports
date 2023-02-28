@@ -6,7 +6,10 @@ We might want the file names which has matches in order to manipulate the files 
 ![image](https://user-images.githubusercontent.com/111631103/221749504-0b350172-5d88-4e6b-bea2-0e436e05f007.png)
 
 ### Way 2. Search for the Pattern as a _whole word_ 
-By default, grep's pattern matching includes substrings. This could prove to be useless if we are trying to find matches, for example, "he" but the default will have the results include matches to "the", in instance. In using the -w option with grep, the pattern "he" is interpreted as a single word. Note the example as follow: `$ grep -w "vista" written_2/travel_guides/berlitz1/*.txt`
+By default, grep's pattern matching includes substrings. This could prove to be useless if we are trying to find matches, for example, "he" but the default will have the results include matches to "the." In using the -w option with grep, the pattern "he" is interpreted as a single word. Note the example as follow: 
+
+Given the command:
+`$ grep -w "vista" written_2/travel_guides/berlitz1/*.txt`
 
 Without `-w`, notice that grep output includes vista as a substring of _vistas_
 ![image](https://user-images.githubusercontent.com/111631103/221750282-22fdd0bc-a7b3-4d1d-90e0-a5060663e796.png)
@@ -49,7 +52,7 @@ wc grep-results.txt
 We see that the output is now as expected (below):
 ![image](https://user-images.githubusercontent.com/111631103/221747040-4e9534f7-df3a-4bcb-a9ce-5ff1e61a190a.png)
 
-### Way 4. Search with Multiple Patterns from a File
+### Way 4. Search with Patterns "read" from a File
 Now, the patterns to be matched could be very long and using -e option to specify for every one isn't always ideal, so we can use grep to refer to a text file which has all the pattern to be matched, e.g. given `pattern.txt`, thus `$ grep -o -f pattern.txt written_2/travel_guides/berlitz1/*.txt | w`. Note, the `|` is what is called a pipeline in which we "pipe" the resulting output into the next command (in this case, `wc`).
 
 ```
