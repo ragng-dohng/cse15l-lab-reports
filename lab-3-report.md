@@ -52,3 +52,13 @@ We see that the output is now as expected (below):
 
 ### 4. Search with Multiple Patterns from a File
 given `pattern.txt`, `$ grep -f pattern.txt find-results.txt`
+
+```
+vista
+flower
+farm
+```
+
+`$ grep -o -f pattern.txt written_2/travel_guides/berlitz1/*.txt | w`
+![image](https://user-images.githubusercontent.com/111631103/221749091-afd8d741-fd05-49c3-b52a-88be7f493909.png)
+
