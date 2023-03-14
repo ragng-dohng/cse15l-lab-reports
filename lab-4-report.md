@@ -7,7 +7,7 @@ SSH keys was setup for both ieng6 (a remote course-specific server) and GitHub t
 2. copy it to an ieng6 account
 3. add the public key to an Github account
 
-Generally, SSH keys makes it easier and quicker to access remote accounts and repositories without having to worry about password authentication, e.g. the ieng6 server and GitHub. 
+Without having to worry about password authentication, SSH keys makes it easier and quicker to access remote accounts and repositories, e.g. the ieng6 server and GitHub.
 
 The following is the latter steps (steps 4-9) in which we tested the connection by cloning the repository, fixed the code to pass the test, and commit and push the changes to Github.
 
