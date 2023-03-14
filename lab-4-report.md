@@ -3,7 +3,7 @@ For steps 4-9: screenshot & write exactly which keys you pressed to get to that 
 *special characters like <enter> or <tab>, write them in angle brackets with code formatting. 
 Then, summarize the commands you ran and what the effect of those keypresses were.
 
-4. Log into ieng6
+### 4. Log into ieng6
 - copy and paste the default `ssh cs15lwi23zz@ieng6.ucsd.edu`
 - change into my specific account: `ssh cs15lwi23ajm@ieng6.ucsd.edu`
   - 15x `<left-arrow>` (until cursor highlights at @)
