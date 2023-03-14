@@ -1,6 +1,6 @@
 # Lab Report 4 - Cloning into a remote account, Using nano (a command-line text-editor), and committing 
 
-The "Behind-the-Scenes": 
+_Behind-the-Scenes_
 SSH keys was setup for both ieng6 (a remote course-specific server) and GitHub to access/write data in repositories on GitHub.com to avoid having to repeatably enter passwords. The process involves:
 1. generate an SSH key on ieng6
 2. copy it to an ieng6 account
@@ -63,4 +63,4 @@ The following is the latter steps (steps 4-9) in which we tested the connection 
 ![image](https://user-images.githubusercontent.com/111631103/224889503-0b62973a-1219-4a13-a34e-681d1599cf32.png)
 
 ### Quick Thoughts
-Overall, the specific tasks were made more efficient with the use of `<Tab>` to autofill for the filenames which also decreases chances of mistypo's. Also, navigating with the `<up-arrow>` and/or `<down-arrow>` to go through previously executed commands expediate the processes. I also used `<Ctrl>` + `<C>` to discontinue my mis-typed commands running. And of course copy-and-paste was quintessential. 
+Overall, the specific tasks were made more efficient with the use of `<Tab>` to autofill for the filenames which also decreases chances of mistypo. Also, navigating with the `<up-arrow>` and/or `<down-arrow>` to go through previously executed commands expediated the process. I also used `<Ctrl>` + `<C>` to discontinue my mis-typed commands running. And of course copy-and-paste was quintessential. 
