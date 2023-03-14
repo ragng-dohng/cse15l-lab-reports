@@ -41,8 +41,8 @@ The following is the latter steps (steps 4-9) in which we tested the connection 
 - pull up the relevant code in nano (a command-line text-editor): `nano ListExamples.java`
   - use `<n><a><n><o> <L><Tab><j><a><v><a>` to autofill the rest of the file name
 - navigate through code using arrows
-- save changes with `Ctrl+O` and press `<Enter>`
-- exit nano with `Ctrl+X`
+- save changes with `<Ctrl>` + `<O>` and press `<Enter>`
+- exit nano with `<Ctrl>` + `<X>`
 
 ![image](https://user-images.githubusercontent.com/111631103/224888237-6a5c7b6e-0fa6-4046-bc73-34beb3f7b33e.png)
 
@@ -63,4 +63,4 @@ The following is the latter steps (steps 4-9) in which we tested the connection 
 ![image](https://user-images.githubusercontent.com/111631103/224889503-0b62973a-1219-4a13-a34e-681d1599cf32.png)
 
 ### Quick Thoughts
-Overall, the tasks were made more efficient with the use of `<Tab>` to autofill and navigating the `<up-arrow>` and/or `<down-arrow>` to go through previously executed commands. I also used <Ctrl+C>
+Overall, the specific tasks were made more efficient with the use of `<Tab>` to autofill for the filenames which also decreases chances of mistypo's. Also, navigating with the `<up-arrow>` and/or `<down-arrow>` to go through previously executed commands expediate the processes. I also used `<Ctrl>` + `<C>` to discontinue my mis-typed commands running. And of course copy-and-paste was quintessential. 
