@@ -25,6 +25,7 @@ command:
   2. `mv *.pdf PDF_DOC_TXT/`
   3. `mv *.docx PDF_DOC_TXT/`
   4. `mv *.txt PDF_DOC_TXT/`
+
 *Note that the following screenshots don't actually follow exactly this as I was indecisive about what I wanted to do. However, the way I used `mv` provides insight into how one would correct for the natural mistake.
 
 ![image](https://user-images.githubusercontent.com/111631103/224907786-1a70a599-985c-409e-84a1-524d12efe94c.png)
