@@ -1,4 +1,4 @@
-# Lab Report 4 - SSH keys, cloning into a remote account, using nano (a command-line text-editor), and saving changes to Github
+# Lab Report 4 - SSH keys, Cloning into a remote account, Using nano (a command-line text-editor), and Saving changes to Github
 
 _Behind-the-Scenes_: 
 SSH keys was setup for both ieng6 (a remote course-specific server) and GitHub to access/write data in repositories on GitHub.com to avoid having to repeatably enter passwords. The process involves:
