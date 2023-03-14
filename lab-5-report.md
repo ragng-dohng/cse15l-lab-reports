@@ -33,7 +33,7 @@ command:
 We would do similarly for the other directories.
 
 ### Future Plans
-Downloaded files automatically categorize themself into the existing directory. I imagine this would require a script utilizing if-statements.
+Downloaded files automatically categorize themself into the existing directories within the Downloads folder. I imagine this would require a script utilizing if-statements.
 
 ### Outside Sources
 https://www.baeldung.com/linux/awk-command-nf-variable
