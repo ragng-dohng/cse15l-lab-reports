@@ -30,8 +30,25 @@ Reproduce the task from the competition (steps 4-9 of tasks)
 
 #### 7. Edit the code file to fix the failing test
 - pull up the relevant code in nano (a command-line text-editor): `nano ListExamples.java`
+  - use `<n><a><n><o> <L><Tab><j><a><v><a>` to autofill the rest of the file name
 - navigate through code using arrows
 - save changes with `Ctrl+O` and press `<Enter>`
 - exit nano with `Ctrl+X`
-- compile the code again 
-Compile the updated source code using the javac command, for example:
+
+![image](https://user-images.githubusercontent.com/111631103/224888237-6a5c7b6e-0fa6-4046-bc73-34beb3f7b33e.png)
+
+#### 8. Run the tests, demonstrating that they now succeed
+- compile the code again
+  - `<up-arrow>` until you see the former javac command `javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java` then `<Enter>`
+- run the test again
+  - `<up-arrow>` until you see the former java command `java -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" org.junit.runner.JUnitCore TestListExamples`
+
+![image](https://user-images.githubusercontent.com/111631103/224888887-25ceac90-3a94-43e6-ab69-998e613c9ef1.png)
+
+
+#### 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
+- `git add ListExamples.java` (again, we can use `<Tab>` to autofill the rest of the filename
+- `git commit -m "fix code"`
+- `git push`
+
+![image](https://user-images.githubusercontent.com/111631103/224889503-0b62973a-1219-4a13-a34e-681d1599cf32.png)
