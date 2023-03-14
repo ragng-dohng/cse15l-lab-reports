@@ -15,7 +15,7 @@ Then, summarize the commands you ran and what the effect of those keypresses wer
   
 #### 5. Clone your fork of the repository from your Github account
 - get the ssh-key from the relevant repository
-<img width="251" alt="image" src="https://user-images.githubusercontent.com/111631103/224881846-f6ed4bf6-98d2-41fb-b9ad-9a03bf852a1d.png">
+![image](img width="251" alt="image" src="https://user-images.githubusercontent.com/111631103/224881846-f6ed4bf6-98d2-41fb-b9ad-9a03bf852a1d.png")
 - `git clone git@github.com:rang-dohng/lab7.git` (note the ssh-key was copied and pasted into the command
 ![image](https://user-images.githubusercontent.com/111631103/224883711-52d3a68b-3040-4668-ae17-9e6172a88196.png)
 - remember to `cd ~/lab7` in order to operate within it
