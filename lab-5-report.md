@@ -34,6 +34,18 @@ command:
 
 We would do similarly for the other directories.
 
+![image](https://user-images.githubusercontent.com/111631103/224909690-83139660-489a-4e77-b14b-207730ca6a57.png)
+
+And now, a quick check with `$ ls`:
+
+![image](https://user-images.githubusercontent.com/111631103/224910028-58eb8660-9fab-4ffc-8aef-949631ea10c3.png)
+
+More visually:
+
+![image](https://user-images.githubusercontent.com/111631103/224910050-83df59c6-b38a-4442-9b57-97d750ef401f.png)
+
+We can see that everything is accounted for.
+
 ### Future Plans
 Downloaded files automatically categorize themself into the existing directories within the Downloads folder. I imagine this would require a script utilizing if-statements.
 
