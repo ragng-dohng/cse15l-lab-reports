@@ -20,6 +20,7 @@ We can now see that the files which clutters the Downloads folder the most are t
 ### 3. Categorize files into their respective directories
 
 Here are the directories that I will create: `PDF_DOC_TXT/`, `EXE/`, and `PIC/`
+
 command: 
   1. `mkdir -p PDF_DOC_TXT`
   2. `mv *.pdf PDF_DOC_TXT/`
