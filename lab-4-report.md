@@ -1,15 +1,12 @@
-Reproduce the task from the competition on your own
-For steps 4-9: screenshot & write exactly which keys you pressed to get to that step.
-*special characters like <enter> or <tab>, write them in angle brackets with code formatting. 
-Then, summarize the commands you ran and what the effect of those keypresses were.
+Reproduce the task from the competition (steps 4-9 of tasks)
 
 #### 4. Log into ieng6
 - copy and paste the default `ssh cs15lwi23zz@ieng6.ucsd.edu`
 - change into my specific account: `ssh cs15lwi23ajm@ieng6.ucsd.edu`
   - 15x `<left-arrow>` (until cursor highlights at @)
-  - 2x `<back-space>` to delete the default `zz`
+  - 2x `<Backspace>` to delete the default `zz`
   - type my specific code `ajm`
-  - `<enter>` which automatically ssh into the remote ieng6 account without a password (prior setup)
+  - `<Enter>` which automatically ssh into the remote ieng6 account without a password (prior setup)
 
 ![image](https://user-images.githubusercontent.com/111631103/224881312-ff7083f3-55c5-41a6-8669-cef22b9b9216.png)
   
@@ -32,4 +29,9 @@ Then, summarize the commands you ran and what the effect of those keypresses wer
 ![image](https://user-images.githubusercontent.com/111631103/224884648-b7a50e33-c293-4c06-8457-32c5b6c9df9c.png)
 
 #### 7. Edit the code file to fix the failing test
-
+- pull up the relevant code in nano (a command-line text-editor): `nano ListExamples.java`
+- navigate through code using arrows
+- save changes with `Ctrl+O` and press `<Enter>`
+- exit nano with `Ctrl+X`
+- compile the code again 
+Compile the updated source code using the javac command, for example:
