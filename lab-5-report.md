@@ -1,6 +1,6 @@
 # Lab Report 5 - Organizing my Downloads folder
 
-Goal: I want to categorize most of the files within my Downloads folder into their own respective directories based on their file type.
+### Goal: I want to categorize most of the files within my Downloads folder into their own respective directories based on their file type.
 
 ### 1. Go to relevant directory: `$ cd ~/Downloads`
 ### 2. What are the most reoccuring file types in my Downloads?
