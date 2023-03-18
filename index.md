@@ -1,7 +1,5 @@
 Welcome! Here's a cute pup picture:
 
-![Pup](https://w0.peakpx.com/wallpaper/655/697/HD-wallpaper-black-lab-with-gumboot-puppy-gumboot-animal-cute.jpg)
-
 ![IMG_0160](https://user-images.githubusercontent.com/111631103/226140827-e43bbb30-1b97-4616-ba64-0327bce2db29.JPG)
 
 These are the reports for CSE 15L:
